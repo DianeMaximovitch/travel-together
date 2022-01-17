@@ -6,4 +6,81 @@
     font-family: var(--typo);
   }
   
-  a { text-decoration: none; }
+  a 
+  { text-decoration: none;}
+
+
+
+
+   /*SERVICES VALE*/
+
+   .services h1 {
+     color: black;
+     font-weight: 700;
+   }
+
+   .services p {
+    color: white;
+    font-weight: 300;
+   }
+  
+
+  .section-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5px;
+
+  }
+
+  .section-services a {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  span {
+    color: darkorange;
+  }
+
+  #ser-left {
+    display: inline-block;
+    background-image: url(https://i.ibb.co/GF1GLvL/homme.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 180px;
+    text-align: center;
+  }
+
+  #ser-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #ser-right-one {
+    display: inline-block;
+    background-image: url(https://i.ibb.co/4sqHfV9/passport.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 69px;
+    text-align: center;
+
+  }
+
+  #ser-right-two {
+    display: inline-block;
+    background-image: url(https://i.ibb.co/qMn5FZm/montgolfiere.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 69px;
+    text-align: center;
+  }
+
+
+
+
+  /*FIN SERVICES*/
