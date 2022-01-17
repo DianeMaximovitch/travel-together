@@ -9,6 +9,13 @@
   a 
   { text-decoration: none;}
 
+  .container{
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
    /*SERVICES VALE*/
    .services h1 {
      color: var(--dark);
@@ -74,7 +81,7 @@
     text-align: center;
   }
   /*FEATURES*/
-  #features{
+  .container-fluid{
     background-image: url(https://i.ibb.co/2n3kVxv/wave-png.png);
     background-image: 100%;
     background-repeat: no-repeat;
@@ -82,7 +89,7 @@
     height: 100vh;
   }
 
-  #grid{
+  .grid-features{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
